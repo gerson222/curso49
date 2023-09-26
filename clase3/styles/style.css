@@ -1,0 +1,28 @@
+header {
+   color: rgb(21, 56, 199) !important;
+   background-image: url(https://s3.amazonaws.com/arc-wordpress-client-uploads/infobae-wp/wp-content/uploads/2018/07/05182149/dogecoin-1.jpg);
+   background-size: 10%;
+}
+
+.text-m{
+   color: brown;
+   text-decoration: dashed;
+}
+
+ul, ol{
+   list-style-type: none;
+}
+
+.joto{
+   background-color: blueviolet;
+}
+
+.tex-alc{
+   text-align: center;
+}
+
+
+body{
+   font-family: 'Croissant One', sans-serif;
+   
+}
