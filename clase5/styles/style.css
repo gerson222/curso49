@@ -1,0 +1,65 @@
+header {
+   color: rgb(21, 56, 199) !important;
+   background-image: url(https://s3.amazonaws.com/arc-wordpress-client-uploads/infobae-wp/wp-content/uploads/2018/07/05182149/dogecoin-1.jpg);
+   background-size: 10%;
+}
+
+.text-m{
+   color: brown;
+   text-decoration: dashed;
+}
+
+ul, ol{
+   list-style-type: none;
+}
+
+.joto{
+   background-color: blueviolet;
+}
+
+.tex-alc{
+   text-align: center;
+}
+
+
+body{
+   font-family: 'Croissant One', sans-serif;
+   
+}
+
+.container{
+   display: flex;
+   flex-direction: column;
+   margin: 30px;
+   padding: 30px;
+   border: 3px black solid;
+}
+
+.container2{
+   display: flex;
+   flex-direction: row;
+   justify-content:space-evenly;
+   margin: 30px;
+   padding: 30px 0px;
+   border: 3px red solid;
+}
+
+.gridc{
+   display: grid;
+   grid-template-columns: repeat(12, 1fr);
+   grid-template-rows: repeat(8, 1fr);
+   gap: 10px;
+   width: 100%;
+   height: 100vh;
+}
+
+.item {
+   background-color: #3498db;
+   color: #fff;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 20px;
+   font-weight: bold;
+   border: 1px solid #333;
+}
