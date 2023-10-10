@@ -1,15 +1,19 @@
 nav {
    display: flex;
    justify-content: space-between;
+   background-color: #333;
 }
 
 .container {
    display: flex;
    justify-content: space-between;
    align-items: center;
-   background-color: #333;
    padding: 10px 20px;
    color: #fff;
+}
+
+.zippo{
+   height: 65px;
 }
 
 .menu {
@@ -28,6 +32,9 @@ nav {
 .menu a {
    text-decoration: none;
    color: #fff;
+}
+.menu-button {
+   display: none;
 }
 
 @media (max-width: 768px) {
