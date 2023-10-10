@@ -1,0 +1,93 @@
+header {
+   color: rgb(21, 56, 199) !important;
+   background-image: url(https://s3.amazonaws.com/arc-wordpress-client-uploads/infobae-wp/wp-content/uploads/2018/07/05182149/dogecoin-1.jpg);
+   background-size: 10%;
+}
+
+.text-m{
+   color: brown;
+   text-decoration: dashed;
+}
+
+ul, ol{
+   list-style-type: none;
+}
+
+.joto{
+   background-color: blueviolet;
+}
+
+.tex-alc{
+   text-align: center;
+}
+
+
+body{
+   font-family: 'Croissant One', sans-serif;
+   background-color: blueviolet;
+}
+
+.container{
+   display: flex;
+   flex-direction: column;
+   margin: 30px;
+   padding: 30px;
+   border: 3px black solid;
+}
+
+.container2{
+   display: flex;
+   flex-direction: row;
+   justify-content:space-evenly;
+   margin: 30px;
+   padding: 30px 0px;
+   border: 3px red solid;
+}
+
+.gridc{
+   display: grid;
+   grid-template-columns: repeat(auto-fill, minmax(8.33%, 1fr));
+   grid-template-rows: repeat(auto-fill, minmax(10%, 1fr));
+   gap: 10px;
+   width: 100%;
+   height: 100vh;
+}
+
+.item {
+   background-color: #3498db;
+   color: #fff;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 20px;
+   font-weight: bold;
+   border: 1px solid #333;
+}
+
+@media (max-width: 1200px) {
+   .container2 {
+      flex-wrap: wrap;
+   }
+}
+
+@media (max-width: 991px) {
+   /* diseños para pantallas de menores (no iguales) 991 px de ancho */
+   body{
+      background-color: red;
+   }
+}
+@media (max-width: 768px) {
+   /* diseños para pantallas de hasta 768 px de ancho */
+   body{
+      background-color: yellow;
+   }
+}
+
+@media (max-width: 576px) {
+   /* diseños para pantallas de hasta 576 px de ancho */
+   body{
+      background-color: green;
+   }
+}
+
+
