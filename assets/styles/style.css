@@ -4,7 +4,7 @@ nav {
    background-color: #333;
 }
 
-.container {
+.contener {
    display: flex;
    justify-content: space-between;
    align-items: center;
@@ -56,4 +56,13 @@ nav {
    .menu-active{
       display: block;
    }
+}
+
+.boton-red:hover{
+   background-color: brown;
+}
+
+.rojo{
+   background-color: red;
+   border: 3px solid black;
 }
